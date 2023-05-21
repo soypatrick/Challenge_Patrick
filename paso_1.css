@@ -40,6 +40,7 @@ h2 {
    border-color : silver;
    border-width: thick;
    border-radius: 25px;
+   font-size: 20px;
    
 }
 .text_area:focus{
@@ -91,7 +92,7 @@ main {
    border-color : silver;
    border-width: thick;
    border-radius: 25px;
-   
+   font-size: 20px;
 }
 
 .Resultado:focus{
