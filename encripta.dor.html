@@ -3,7 +3,7 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width-device-width">
+        <meta name="viewport" content="width=device-width">
         <title>Mensaje Encriptado</title>
         <link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="paso_1.css">	
@@ -24,13 +24,13 @@
                 </div>
                 <div class="botones">
                     <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
-                    <button class="desencriptar">Des-Encriptar</button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">Des-Encriptar</button>
                 </div>
             </section>
             <section>
                 <textarea class="Resultado" cols="20" rows="10" placeholder="No hay nada escrito aún"></textarea>
                 <div>
-                    <button class="copiar">Copiar</button>
+                    <button class="copiar" onclick="copiarAlPortapapeles()">Copiar</button>
                 </div>
             </section>
         </main>
